@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính chỉ số cân nặng</title>
+</head>
+<body>
+    <table border= 1 px >
+      <thead>
+        <h1>Tính chỉ số cân nặng</h1>  
+      </thead>
+      <tbody>
+        <tr>
+          <td>    
+            <label for="can_nang"> Nhập cân nặng(kg):</lable>
+          </td>
+          <td>
+              <form>
+                  <input type="text" name="" id="can_nang"  >
+              </form> 
+          </td> 
+        </tr>
+        <tr>
+          <td>    
+            <label for="chieu_cao"> Nhập chiều cao(m):</lable>
+          </td>
+          <td>
+              <form>
+                  <input type="text" name="" id="chieu_cao">
+              </form>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center ;" >
+            <button id="btn_kiemTra" onclick="Kiem_tra">Kiểm tra</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"> <p id="result"></p></td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+<script src="can_nang.js"></script> 
+</html>
