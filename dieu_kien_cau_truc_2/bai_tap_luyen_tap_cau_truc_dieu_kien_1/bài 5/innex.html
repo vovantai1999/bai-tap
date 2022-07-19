@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tính điểm trung bình </title>
+</head>
+
+<body>
+    Nhập điểm kiểm tra: <input type="number" id="dauky"><br>
+    Nhập điểm giữa kỳ: <input type="number" id="giuaky"><br>
+    Nhập điểm cuối kỳ: <input type="number" id="cuoiky"><br>
+    <button type="button" onclick="tinhTb()">Tổng kết</button>
+    <span id="result"></span>
+</body>
+<script>
+    function tinhTb() {
+        let a = Number(document.getElementById("dauky").value);
+        let b = Number(document.getElementById("giuaky").value);
+        let c = Number(document.getElementById("cuoiky").value);
+        let Tb = (a + (b*2) + (c*3))/ 6;
+    if (Tb>=8.5){
+        alert("Điểm trung bình là: "+Tb+ " Đạt loại giỏi");
+    }
+    else if (Tb>=6.5){
+        alert("Điểm trung bình là: "+Tb+ " Đạt loại khá");
+    }
+    else if(Tb>=4.5){
+        alert("Điểm trung bình là: "+Tb+ " Đạt loại trung bình");
+    }
+    else { alert("Điểm trung bình là:"+Tb+ " Đạt loại yếu");
+}  
+    }
+        
+    
+
+
+</script>
+
+</html>

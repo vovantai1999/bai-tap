@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tìm số lớn nhất trong 3 số</title>
+</head>
+<body>
+    Nhập số nguyên a: <input type="number" id="a"><br> <!---->
+    Nhập số nguyên b: <input type="number" id="b"><br>
+    Nhập số nguyên c: <input type="numer" id="c"><br>
+    <button type="button" onclick="timMax()">tìm max</button><br>
+    <span id="result"></span>
+</body> 
+<script>
+function timMax(){ //
+let a= Number(document.getElementById("a").value);
+let b= Number(document.getElementById("b").value);
+let c= Number(document.getElementById("c").value);
+let max=a;
+if (b>max){
+    max=b;
+}
+if (c>max){
+    max=c;
+}
+document.getElementById("result").innerHTML= "Giá trị lớn nhất là: " + max;
+}
+</script>
+</html>
