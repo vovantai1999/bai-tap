@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tính diện tích hình vuông </title>
+</head>
+<body>
+    Nhập chiều dài cạnh a: <input type="number" id="hinhvuong">
+    <button type="button" onclick="dientich()">Kết quả </button>
+    <span id="result"></span> 
+</body>
+<script>
+    function dientich(){
+        let a= Number(document.getElementById("hinhvuong").value);
+        let s= a*a;
+    document.getElementById("result").innerHTML="Diện tích hình vuông là: " + s;
+
+    }
+</script>
+</html>

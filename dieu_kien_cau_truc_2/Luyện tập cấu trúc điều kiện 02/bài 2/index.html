@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chuyển từ mét sang fet</title>
+</head>
+<body>
+    Nhập độ dài(mét) <input type="number" id="met">
+    <button type="button" onclick="Fet()">Kết quả </button> 
+    <span id="result"></span>
+
+</body>
+<script>
+    function Fet(){
+        let a=Number(document.getElementById("met").value);
+        let fet= a*3.2808
+    document.getElementById("result").innerHTML="Độ dài tính bằng fet là: " + fet;
+    }
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>giải phương trình bậc nhất</title>
+</head>
+<body>
+    <H1 style="text-align:center ;">Giải phương trình bậc nhất</H1>
+    Nhập số a: <input type="number" id="a">
+    Nhập số b: <input type="number" id="b">
+    <button type="button" onclick="timX()">Kết quả</button>
+    <span id="result"></span>
+
+</body>
+<script>
+    function timX(){
+        let a=Number(document.getElementById("a").value);
+        let b=Number(document.getElementById("b").value);
+        let x= -b/a;
+    document.getElementById("result").innerHTML="Kết quả phương trình bậc nhất là x= " + x;
+    }
+</script>
+</html>

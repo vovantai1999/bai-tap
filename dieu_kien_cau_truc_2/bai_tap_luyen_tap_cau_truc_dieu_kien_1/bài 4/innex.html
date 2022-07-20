@@ -14,7 +14,7 @@
     <span id="result"></span>
 </body> 
 <script>
-function timMax(){ //
+function timMax(){
 let a= Number(document.getElementById("a").value);
 let b= Number(document.getElementById("b").value);
 let c= Number(document.getElementById("c").value);
@@ -24,8 +24,10 @@ if (b>max){
 }
 if (c>max){
     max=c;
+    document.getElementById("result").innerHTML= "giá trị lớn nhất là: " + max;
+
 }
-document.getElementById("result").innerHTML= "Giá trị lớn nhất là: " + max;
 }
+
 </script>
 </html>

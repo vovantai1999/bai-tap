@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính diện tích tam giác vuông </title>
+</head>
+<body>
+    Nhập cạnh a: <input type="number" id="a">
+    Nhập cạnh b: <input type="number" id="b">
+    <button type="button" onclick="dientich()">Kết quả</button>
+    <span id="result"></span>
+
+</body>
+<script>
+    function dientich(){
+        let a=Number(document.getElementById("a").value);
+        let b=Number(document.getElementById("b").value);
+        let s= (a*b)/2;
+    document.getElementById("result").innerHTML= "Diện tích tam giác vuông là: " + s;
+    }
+</script>
+</html>
