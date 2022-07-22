@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiểm tra chia hết cho 5 & 7</title>
+</head>
+<body>
+    <script>
+       let num;
+       for(num = 1; num<=100; num++){
+        if(num % 3 == 0 && num % 5 !== 0){
+            document.write("chia hết cho 3"+"<br>"); 
+            continue;     
+        }
+        else if(num % 5 == 0 && num % 3 !==0){
+            document.write("chia hết cho 5"+"<br>");
+            continue;
+        }
+        else if(num % 3 == 0 && num % 5 == 0){
+            document.write("chia hết cho 3 & 5 "+"<br>")
+            continue;
+        }
+        document.write( num + "<br>");
+       }
+    </script>
+</body>
+</html>

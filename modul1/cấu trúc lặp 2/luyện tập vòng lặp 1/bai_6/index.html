@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tính tổng 30 số chia hết cho 7 </title>
+</head>
+<body>
+    <script>
+    let i;
+    let count =0;
+    let sum = 0;
+    for(i=0 ;  ; i++){
+        if(i % 7 == 0){
+            sum = sum + i;
+            count = count+1;
+            if(count==30){
+                alert("Tổng 30 số đầu tiên chia hết cho 7 là:" + sum);
+                break;
+            } 
+        }
+    }
+    </script>
+</body>
+</html>
