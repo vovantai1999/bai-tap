@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>in dãy Fibonacci</title>
+</head>
+<body>
+    <script>
+           let number = Number(prompt('Enter the number of terms: '));
+    let n1 = 0, n2 = 1, n3;
+    document.write(number+" số Fibonacci đầu tiên là: <br>")
+    for (let i = 1; i <= number; i++) {
+        document.write(n1 +"<br>");
+        n3 = n1 + n2;
+        n1 = n2;
+        n2 = n3;
+    }
+    </script>
+</body>
+</html>
