@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers_a = " anh tôi sẽ nghỉ học vào ngày mai";
+        let numbers_b = "ngày mai tôi đi học";
+        let result = numbers_a.localeCompare(numbers_b);
+        // document.write(result);
+        if(result == (-1)){
+            alert("Numbers_a được sắp xếp trước Numbers_b");
+        }
+        else if(result == 1){
+            alert("Numbers_a được sắp xếp sau Numbers_b");
+        }else if( result == 0){
+            alert("Numbers_a bằng Numbers_b");
+        }
+
+        
+        
+
+    </script>
+</body>
+</html>
