@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Nhập số phần tử trong mảng</td>
+            <td><input type="number" id="size" value="10"></td>
+        </tr>
+        <tr>
+            <td>Nhập giá trị Min</td>
+            <td><input type="number" id="min" value="1"></td>
+        </tr>
+        <tr>
+            <td>Nhập giá trị Max</td>
+            <td><input type="number" id="max" value="12"></td>
+        </tr>
+        <tr>
+            <td>Hiện phần tử trong mảng</td>
+            <td><input type="text" id="array"></td>
+        </tr>
+        <tr>
+            <td>Kiểm tra phần tử trong mảng</td>
+            <td><input type="text" id="result"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center"><button onclick="result()">Kiểm tra</button></td>
+        </tr>
+    </table>
+    <script>
+        function result(){
+            let size = Number(document.querySelector("#size").value);
+            let min = Number(document.querySelector("#min").value);
+            let max = Number(document.querySelector("#max").value);
+            let array =(document.querySelector("#array"));
+            let result =(document.querySelector("#result"));
+
+            let numbers = new Array(size);
+            for(let i = 0; i < numbers.length; i++){
+                numbers[i] = Math.floor(Math.random()*(max - min + 1) + min);
+            } array.value = numbers;
+
+            for( let i = 0; i < numbers.length; i++){
+                if(numbers[i] == 3){
+                    numbers.splice(i,1);
+                }result.value = numbers;
+            }
+
+        }
+    </script>
+</body>
+</html>

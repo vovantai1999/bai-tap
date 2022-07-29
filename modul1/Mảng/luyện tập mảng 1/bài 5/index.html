@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viết chương trình đếm số nguyên âm trong một chuỗi</title>
+</head>
+<body>
+    <script>
+        
+        let numbers = [-2, -5, -3, 9, 84, -6, -95, 4]
+        let count = 0;
+        for( let i = 0; i < numbers.length; i++){
+            if(numbers[i] < 0) count = count + 1;
+        } document.write(" Số nguyên âm có trong mảng là: " + count);
+      
+    </script>
+</body>
+</html>

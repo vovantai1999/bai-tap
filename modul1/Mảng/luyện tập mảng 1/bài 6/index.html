@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Nhập số giá trị</td>
+            <td><input type="number" id="size"td>
+        </tr>
+        <tr>
+            <td>Nhập giá trị Min</td>
+            <td><input type="number" id="min"></td>
+        </tr>
+        <tr>
+            <td>Nhập giá trị Max</td>
+            <td><input type="number" id="max"></td>
+        </tr>
+        <tr>
+            <td>Hiện phần tử mảng</td>
+            <td><input type="text" id="array"></td>
+        </tr>
+        <tr>
+            <td>Kiểm tra phần tử số nguyên</td>
+            <td><input type="text" id="yes"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><button onclick="result()">Kết quả</button></td>
+        </tr>
+    </table>
+    <script>
+        function result(){
+            let size = Number(document.querySelector("#size").value);
+            let min = Number(document.querySelector("#min").value);
+            let max = Number(document.querySelector("#max").value);
+            let array =(document.querySelector("#array"));
+            let result = (document.querySelector("#yes"));
+           
+
+            let numbers = new Array(size);
+            for(let i = 0; i < numbers.length; i++){
+                numbers[i] = Math.floor(Math.random()*( max - min + 1) + min);
+            } array.value = numbers;  
+            
+            
+            for( let i = 0; i < numbers.length; i++){
+                if (numbers[i] == 2){
+                    result.value = ("2 là phần tử trong mảng");break;
+                } else{
+                    result.value = ("2 không phải là phần tử của mảng");
+                }
+           
+        }     
+    }
+        
+    </script>
+</body>
+</html>

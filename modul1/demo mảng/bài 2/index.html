@@ -1,107 +1,65 @@
-<title>Loop 2</title>
-<style>
-    table,tr,td{
-        border: 1px solid black;
-        border-collapse:  collapse;
-    }
-    table td:first-child{
-        width: 100px;
-    }
-    td{
-        padding: 5px;
-    }
-    table tr:hover{
-        background-color: green;
-        cursor: pointer;
-    }
-    .done{
-        text-decoration: line-through;
-    }
-
-    .d-none{
-        display: none;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-@@ -50,6 +54,9 @@
-        </tr>
-    </tbody>
-</table> -->
-<div>
-    <button onclick="createJob()">Create Job</button>
-</div>
-<div id="job-area">
-
-</div>
-@@ -60,8 +67,11 @@
-    for(let row = 1; row <= jobCount; row ++){
-        html += `
-                <tr id="tr_${row}">
-                    <td>Job ${row}</td>
-                    <td data-jobname='Job ${row}'>Job ${row}</td>
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="dau_cuoi">MẢNG</td>
+                </tr>
+                <tr>
+                    <td>Nhập kích cỡ mảng: </td>
                     <td>
-                        <button id="btnEdit_${row}" onclick="updateJob(${row})">Edit</button>
-                        <button id="btnSave_${row}" class="d-none" onclick="saveJob(${row})">Save</button>
-                        <button id="btnCancel_${row}" class="d-none" onclick="cancelJob(${row})">Cancel</button>
-                        <button onclick="removeJob(${row})">Remove</button>
+                        <input type="number" id = "size" min="0">
                     </td>
                 </tr>
-@@ -84,6 +94,58 @@
-            document.querySelector(`#tr_${row} td:first-child`).classList.add('done');
-        }
-    }
-
-    // function updateJob(row){
-    //     let jobName = prompt('Enter job name: ');
-    //     document.querySelector(`#tr_${row} td:first-child`).innerText = jobName;
-    // }
-    function updateJob(row){
-        let tdJob = document.querySelector(`#tr_${row} td:first-child`);
-        let oldJobName = tdJob.innerText;
-        tdJob.innerHTML = `<input type='text' id="jobname_${row}" value='${oldJobName}'>`;
-        document.querySelector(`#btnEdit_${row}`).classList.add('d-none');
-        document.querySelector(`#btnSave_${row}`).classList.remove('d-none');
-        document.querySelector(`#btnCancel_${row}`).classList.remove('d-none');
-    }
-
-    function cancelJob(row){
-        let tdJob = document.querySelector(`#tr_${row} td:first-child`);
-        let jobName = document.querySelector(`#tr_${row} td:first-child`).getAttribute('data-jobname'); //document.querySelector(`#jobname_${row}`).value;
-        tdJob.innerHTML = jobName;
-        document.querySelector(`#btnEdit_${row}`).classList.remove('d-none');
-        document.querySelector(`#btnSave_${row}`).classList.add('d-none');
-        document.querySelector(`#btnCancel_${row}`).classList.add('d-none');
-    }
-    function saveJob(row){
-        let tdJob = document.querySelector(`#tr_${row} td:first-child`);
-        let jobName = document.querySelector(`#jobname_${row}`).value;
-        tdJob.innerHTML = jobName;
-        document.querySelector(`#btnEdit_${row}`).classList.remove('d-none');
-        document.querySelector(`#btnSave_${row}`).classList.add('d-none');
-        document.querySelector(`#btnCancel_${row}`).classList.add('d-none');
-    }
-
-    function createJob(){
-        let tbJob = document.querySelector('#job-area table tbody');
-        let tr = document.createElement("tr");
-        let newRow = ++jobCount;
-        tr.setAttribute("id", `tr_${newRow}`);
-        // tăng jobCount lên 1
-        // gán jobCount cho newRow
-        // let newRow = jobCount++;
-        // gán jobCount cho newRow
-        // tăng jobCount lên 1
-        tr.innerHTML = `
-                    <td data-jobname='Job ${newRow}'>Job ${newRow}</td>
+                <tr>
+                    <td>Nhập min: </td>
                     <td>
-                        <button id="btnEdit_${newRow}" onclick="updateJob(${newRow})">Edit</button>
-                        <button id="btnSave_${newRow}" class="d-none" onclick="saveJob(${newRow})">Save</button>
-                        <button id="btnCancel_${newRow}" class="d-none" onclick="cancelJob(${newRow})">Cancel</button>
-                        <button onclick="removeJob(${newRow})">Remove</button>
+                        <input  type="number" id = "min">
                     </td>
-                    `
-        tbJob.appendChild(tr);
-    }
-</script>
+                </tr>
+                <tr>
+                    <td>Nhập max: </td>
+                    <td>
+                        <input  type="number" id = "max">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mảng: </td>
+                    <td>
+                        <textarea readonly id = "array"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tổng: </td>
+                    <td>
+                        <input  readonly type="text" id = "total">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giá trị lớn nhất: </td>
+                    <td>
+                        <input  readonly type="text" id = "maxOfArray">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số lượng số chẵn: </td>
+                    <td> <input readonly type="text" id = "countEven" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="dau_cuoi">
+                        <button type="button" onclick = "getResult()">Kết quả</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </body>
+</html>
