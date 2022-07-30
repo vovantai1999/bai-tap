@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổit nhiệt độ sử dụng Hàm</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Nhập độ F</td>
+            <td><input type="number" id="doF"></td>
+        </tr>
+        <tr>
+            <td>Độ C</td>
+            <td><input type="text" id="doC"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center"><button onclick="result()">Kết quả</button></td>
+        </tr>
+    </table>
+    <script>
+        function result(){
+            let doF = Number(document.querySelector("#doF").value);
+            let doC = document.querySelector("#doC");
+           let result = (doF - 32)/1.8;
+            doC.value = result;  
+        }
+    </script>
+</body>
+</html>
