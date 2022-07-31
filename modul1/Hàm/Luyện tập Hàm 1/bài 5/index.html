@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let array1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let array2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+
+    function name (a){
+        let index = -1;
+        let result = "";
+        for(i = 0; i < array1.length; i++){
+            if(array1[i] === a){
+                index = i;
+                break;
+            }
+        }
+        if(index < 0){
+            result = "Không tìm thấy ngôi sao nào";
+            return result;
+        }
+        else{
+            result = array2[index];
+            return result;
+        }
+    }
+    let star = prompt("Nhập tên ngôi sao: ");
+    let result = checkStar(star);
+    document.write(result);
+
+
+</script>
+</html>
