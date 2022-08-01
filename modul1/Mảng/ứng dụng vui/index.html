@@ -7,32 +7,53 @@
     <title>ứng dụng vui</title>
 </head>
 <body>
-    <h1>Type anthing slowly</h1><br>
-    <textarea name="text" ></textarea>
-    <script>
-        var a=new Array(),n="";
-            a[1]='T';a[2]='Ô';a[3]='I';a[4]=' ';a[5]='L';a[6]='À';a[7]=' ';a[8]='M';a[9]='Ộ';a[10]='T';a[11]=' ';a[12]='Đ';a[13]='Ứ';a[14]='A';a[15]=' ';a[16]='N';a[17]='G';a[18]='Ố';a[19]='C';a[20]='!';a[21]='!';a[22]='!';
-            function typeTextarea(){
-                t = document.f.txt.value;
-                j = t.length;
-                if(j > 0)
-                {
-                    for(var i=1; i<=j; i++)
-                    {
-                        n = n + a[i];
-                        if(i == 22)
-                        {
-                            document.f.txt.value = "";
-                            n = "";
-                        }
-                    }
-                }
-                document.f.txt.value = n;
-                n="";
-                setTimeout("typeTextarea()", 1);
-                //return false;
-            }
-        </script>
-    </script>
+    <div>
+        <h3>Type anthing slowly</h3>
+        <textarea id="txtA" onkeydown="changeValue()"></textarea>
+    </div>
 </body>
+<script>
+
+        var result = "";
+        var arr = new Array();
+        arr[0] = 'T';
+        arr[1] = 'O';
+        arr[2] = 'I';
+        arr[3] = ' ';
+        arr[4] = 'T';
+        arr[5] = 'E';
+        arr[6] = 'N';
+        arr[7] = ' ';
+        arr[8] = 'L';
+        arr[9] = 'A';
+        arr[10] = ' ';
+        arr[11] = 'V';
+        arr[12] = 'O';
+        arr[13] = ' ';
+        arr[14] = 'V';
+        arr[15] = 'A';
+        arr[16] = 'N';
+        arr[17] = ' ';
+        arr[18] = 'T';
+        arr[19] = 'A';
+        arr[20] = 'I';
+        
+        function changeValue() {
+            let txtA = document.getElementById('txtA').value; 
+            if (txtA.length > 0)
+            {
+                for(var i = 0; i < txtA.length; i++)
+                {
+                    result = result + arr[i];
+                }
+                if (i==20){
+                    document.getElementById('txtA').value="";
+                    result="";
+                }
+            }
+            document.getElementById('txtA').value=result;
+            result="";
+            setTimeout("changeValue()", 1);
+        }
+</script
 </html>
