@@ -25,7 +25,9 @@ public class Tinh_So_Ngay_trong_Thang {
              case 11:
                  System.out.println("Tháng " + month + " Có 30 ngày ");
                  break;
-
+             default:
+                 System.out.print("Định dạng tháng không hợp !");
+                 break;
 
          }
     }
