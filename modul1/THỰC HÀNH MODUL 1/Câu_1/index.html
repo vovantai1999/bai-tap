@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>giai pt bac 2</title>
+</head>
+    <script>
+    function giai(form){
+        var x1,x2;
+        var x,y,z,delta;
+        x = parseInt(form.a.value);
+        y = parseInt(form.b.value);
+        z = parseInt(form.c.value);
+        delta=(y*y-4*x*z)
+
+    if(delta ==0){
+        alert("Phương trình có nghiệm kép");
+        x1=-y/(2*x) ;
+         x2=-y/(2*x);
+        form.x.value=eval(x1);
+        form.y.value=eval(x2);
+     }
+    else if(delta<0){
+         alert("Phương trình vô nghiệm");
+        } 
+    else{
+        alert("Phương trình có hai nghiệm");
+        x1=(-y-Math.sqrt(delta))/(2*x);
+        x2=(-y+Math.sqrt(delta))/(2*x);
+        form.x.value=eval(x1);
+        form.y.value=eval(x2);
+    }
+    }
+    </script>
+    </head>
+<body>
+    <form method="post">
+    <br>Nhập giá trị a:
+    <input type="text" name="a" value="">
+    <br> Nhập giá trị b:
+    <input type="text" name="b" value="">
+    <br>Nhập giá trị c:
+    <input type="text" name="c" value="">
+    <br>Đáp số:
+    <input type="text" name="x" value="">
+    <input type="text" name="y" value="">
+    <input type="button" value="Result" onClick="giai(this.form)">
+    </form>
+</body>
+</html>
