@@ -1,4 +1,4 @@
-package Bai8_TINH_CHI_SO_CAN_NANG;
+package bai8_tinh_chi_so_can_nang;
 
 import java.util.Scanner;
 

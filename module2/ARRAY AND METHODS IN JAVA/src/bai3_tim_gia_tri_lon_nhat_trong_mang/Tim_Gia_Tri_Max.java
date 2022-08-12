@@ -2,7 +2,7 @@ package bai3_tim_gia_tri_lon_nhat_trong_mang;
 
 import java.util.Scanner;
 
-public class Tim_gia_tri_lon_nhat_trong_mang {
+public class Tim_Gia_Tri_Max {
     public static void main(String[] args) {
 //        int size;
 //        int [] array;

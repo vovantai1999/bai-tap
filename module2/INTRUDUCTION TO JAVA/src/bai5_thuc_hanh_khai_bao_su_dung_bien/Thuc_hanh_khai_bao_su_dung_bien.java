@@ -1,4 +1,4 @@
-package Bai5_THUC_HANH_KHAI_BAO_VA_SU_DUNG_BIEN;
+package bai5_thuc_hanh_khai_bao_su_dung_bien;
 
 public class Thuc_hanh_khai_bao_su_dung_bien {
     public static void main(String[] args) {

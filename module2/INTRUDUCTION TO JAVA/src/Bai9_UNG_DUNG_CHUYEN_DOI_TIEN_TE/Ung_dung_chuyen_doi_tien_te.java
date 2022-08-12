@@ -1,4 +1,4 @@
-package Bai9_UNG_DUNG_CHUYEN_DOI_TIEN_TE;
+package bai9_ung_dung_chuyen_doi_tien_te;
 
 import java.util.Scanner;
 

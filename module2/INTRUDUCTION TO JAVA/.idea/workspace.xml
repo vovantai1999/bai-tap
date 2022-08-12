@@ -5,33 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e95bd21-d710-4fcb-96f7-0c2e4ef74ae3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTRUDUCTION TO JAVA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai1/GiaiPhuongTrinhBacNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai10_UNG_DUNG_DOC_SO_THANH_CHU/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai10_UNG_DUNG_DOC_SO_THANH_CHU/Ung_dung_doc_so_thanh_chu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Hien_Thi_Loi_Chao/HienThiLoiChao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai2_Hien_Thi_Loi_Chao/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai3_Hien_Thi_Thoi_gian_hien_tai/Hien_Thi_Thoi_Gian_Hien_Tai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai3_Hien_Thi_Thoi_gian_hien_tai/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai4_Kiem_tra_nam_nhuan/Kiem_tra_nam_nhuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai4_Kiem_tra_nam_nhuan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai5_THUC_HANH_KHAI_BAO_VA_SU_DUNG_BIEN/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai5_THUC_HANH_KHAI_BAO_VA_SU_DUNG_BIEN/Thuc_hanh_khai_bao_su_dung_bien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai6_THUC_HANH_SU_DUNG_TOAN_TU/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai6_THUC_HANH_SU_DUNG_TOAN_TU/Thuc_hanh_su_dung_toan_tu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai7_TINH_SO_NGAY_TRONG_THANG/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai7_TINH_SO_NGAY_TRONG_THANG/Tinh_so_ngay_trong_thang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai8_TINH_CHI_SO_CAN_NANG/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai8_TINH_CHI_SO_CAN_NANG/Tinh_chi_so_can_nang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai9_UNG_DUNG_CHUYEN_DOI_TIEN_TE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai9_UNG_DUNG_CHUYEN_DOI_TIEN_TE/Ung_dung_chuyen_doi_tien_te.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vonglap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Giai_phuong_trinh_bac_nhat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Hien_Thi_Loi_Chao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Hien_Thi_Thoi_Gian_Hien_Tai.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/KiemTraSoNguyenTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Kiem_Tra_Nam_Nhuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/ThucHanhKhaiBaoVaSuDungbien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Thuc_hanh_su_dung_toan_tu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Tinh_So_Ngay_trong_Thang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Tinh_chi_so_can_nang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/UngDungChuyenDoiTienTe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Ung_dung_doc_so_thanh_chu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Giai_phuong_trinh_bac_nhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Hien_Thi_Loi_Chao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Hien_Thi_Thoi_Gian_Hien_Tai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/KiemTraSoNguyenTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Kiem_Tra_Nam_Nhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/ThucHanhKhaiBaoVaSuDungbien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Thuc_hanh_su_dung_toan_tu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Tinh_So_Ngay_trong_Thang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Tinh_chi_so_can_nang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/UngDungChuyenDoiTienTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Ung_dung_doc_so_thanh_chu.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,7 +66,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ung_dung_doc_so_thanh_chu">
+  <component name="RunManager" selected="Application.KiemTraSoNguyenTo">
     <configuration name="GiaiPhuongTrinhBacNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai1.GiaiPhuongTrinhBacNhat" />
       <module name="INTRUDUCTION TO JAVA" />
@@ -83,12 +80,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KiemTraSoNguyenTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai1.KiemTraSoNguyenTo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Thuc_hanh_khai_bao_su_dung_bien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai5_THUC_HANH_KHAI_BAO_VA_SU_DUNG_BIEN.Thuc_hanh_khai_bao_su_dung_bien" />
+      <option name="MAIN_CLASS_NAME" value="bai5_thuc_hanh_khai_bao_su_dung_bien.Thuc_hanh_khai_bao_su_dung_bien" />
       <module name="INTRUDUCTION TO JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bai5_THUC_HANH_KHAI_BAO_VA_SU_DUNG_BIEN.*" />
+          <option name="PATTERN" value="bai5_thuc_hanh_khai_bao_su_dung_bien.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Tinh_so_ngay_trong_thang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai7_TINH_SO_NGAY_TRONG_THANG.Tinh_so_ngay_trong_thang" />
+      <option name="MAIN_CLASS_NAME" value="bai7_tinh_so_ngay_trong_thang.Tinh_so_ngay_trong_thang" />
       <module name="INTRUDUCTION TO JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bai7_TINH_SO_NGAY_TRONG_THANG.*" />
+          <option name="PATTERN" value="bai7_tinh_so_ngay_trong_thang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="Ung_dung_doc_so_thanh_chu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai10_UNG_DUNG_DOC_SO_THANH_CHU.Ung_dung_doc_so_thanh_chu" />
+      <option name="MAIN_CLASS_NAME" value="bai10_ung_dung_doc_so_thanh_chu.Ung_dung_doc_so_thanh_chu" />
       <module name="INTRUDUCTION TO JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bai10_UNG_DUNG_DOC_SO_THANH_CHU.*" />
+          <option name="PATTERN" value="bai10_ung_dung_doc_so_thanh_chu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GiaiPhuongTrinhBacNhat" />
+        <item itemvalue="Application.KiemTraSoNguyenTo" />
         <item itemvalue="Application.Ung_dung_doc_so_thanh_chu" />
         <item itemvalue="Application.Tinh_so_ngay_trong_thang" />
         <item itemvalue="Application.Thuc_hanh_khai_bao_su_dung_bien" />
-        <item itemvalue="Application.GiaiPhuongTrinhBacNhat" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660187289831</updated>
-      <workItem from="1660187291162" duration="1364000" />
+      <workItem from="1660187291162" duration="2821000" />
     </task>
     <servers />
   </component>

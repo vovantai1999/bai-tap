@@ -1,4 +1,4 @@
-package Bai6_THUC_HANH_SU_DUNG_TOAN_TU;
+package bai6_thuc_hanh_su_dung_toan_tu;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Bai3_Hien_Thi_Thoi_gian_hien_tai;
+package bai3_hien_thi_thoi_gian_hien_tai;
 
 public class Main {
 }

@@ -1,4 +1,4 @@
-package Bai2_Hien_Thi_Loi_Chao;
+package bai2_hien_thi_loi_chao;
 import java.util.Scanner;
 public class HienThiLoiChao {
     public static void main(String[] args) {

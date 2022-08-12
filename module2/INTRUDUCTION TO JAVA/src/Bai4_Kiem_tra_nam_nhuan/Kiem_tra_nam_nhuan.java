@@ -1,4 +1,4 @@
-package Bai4_Kiem_tra_nam_nhuan;
+package bai4_kiem_tra_nam_nhuan;
 
 import java.util.Scanner;
 

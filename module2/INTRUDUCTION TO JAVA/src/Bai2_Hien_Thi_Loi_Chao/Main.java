@@ -1,4 +1,4 @@
-package Bai2_Hien_Thi_Loi_Chao;
+package bai2_hien_thi_loi_chao;
 
 public class Main {
 }

@@ -5,16 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184bb30b-43cb-425e-95ad-38ec77004f8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP JAVA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai1_kiem_tra_so_nguyen_to/KiemTraSoNguyenTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai1_kiem_tra_so_nguyen_to/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai2/TinhTienLaiChoVay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai10_UNG_DUNG_DOC_SO_THANH_CHU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai10_UNG_DUNG_DOC_SO_THANH_CHU/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai10_UNG_DUNG_DOC_SO_THANH_CHU/Ung_dung_doc_so_thanh_chu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai10_UNG_DUNG_DOC_SO_THANH_CHU/Ung_dung_doc_so_thanh_chu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai2_Hien_Thi_Loi_Chao/HienThiLoiChao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai2_Hien_Thi_Loi_Chao/HienThiLoiChao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai2_Hien_Thi_Loi_Chao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai2_Hien_Thi_Loi_Chao/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai3_Hien_Thi_Thoi_gian_hien_tai/Hien_Thi_Thoi_Gian_Hien_Tai.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai3_Hien_Thi_Thoi_gian_hien_tai/Hien_Thi_Thoi_Gian_Hien_Tai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai3_Hien_Thi_Thoi_gian_hien_tai/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai3_Hien_Thi_Thoi_gian_hien_tai/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai4_Kiem_tra_nam_nhuan/Kiem_tra_nam_nhuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai4_Kiem_tra_nam_nhuan/Kiem_tra_nam_nhuan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai4_Kiem_tra_nam_nhuan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai4_Kiem_tra_nam_nhuan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai5_THUC_HANH_KHAI_BAO_VA_SU_DUNG_BIEN/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai5_THUC_HANH_KHAI_BAO_VA_SU_DUNG_BIEN/Thuc_hanh_khai_bao_su_dung_bien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai6_THUC_HANH_SU_DUNG_TOAN_TU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai6_THUC_HANH_SU_DUNG_TOAN_TU/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai6_THUC_HANH_SU_DUNG_TOAN_TU/Thuc_hanh_su_dung_toan_tu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai6_THUC_HANH_SU_DUNG_TOAN_TU/Thuc_hanh_su_dung_toan_tu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai7_TINH_SO_NGAY_TRONG_THANG/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai7_TINH_SO_NGAY_TRONG_THANG/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai7_TINH_SO_NGAY_TRONG_THANG/Tinh_so_ngay_trong_thang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai7_TINH_SO_NGAY_TRONG_THANG/Tinh_so_ngay_trong_thang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai8_TINH_CHI_SO_CAN_NANG/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai8_TINH_CHI_SO_CAN_NANG/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai8_TINH_CHI_SO_CAN_NANG/Tinh_chi_so_can_nang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai8_TINH_CHI_SO_CAN_NANG/Tinh_chi_so_can_nang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai9_UNG_DUNG_CHUYEN_DOI_TIEN_TE/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai9_UNG_DUNG_CHUYEN_DOI_TIEN_TE/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai9_UNG_DUNG_CHUYEN_DOI_TIEN_TE/Ung_dung_chuyen_doi_tien_te.java" beforeDir="false" afterPath="$PROJECT_DIR$/../INTRUDUCTION TO JAVA/src/Bai9_UNG_DUNG_CHUYEN_DOI_TIEN_TE/Ung_dung_chuyen_doi_tien_te.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vonglap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Giai_phuong_trinh_bac_nhat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Hien_Thi_Loi_Chao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Hien_Thi_Thoi_Gian_Hien_Tai.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/KiemTraSoNguyenTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Kiem_Tra_Nam_Nhuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/ThucHanhKhaiBaoVaSuDungbien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Thuc_hanh_su_dung_toan_tu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Tinh_So_Ngay_trong_Thang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Tinh_chi_so_can_nang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/UngDungChuyenDoiTienTe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../introduction to java/Ung_dung_doc_so_thanh_chu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Giai_phuong_trinh_bac_nhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Hien_Thi_Loi_Chao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Hien_Thi_Thoi_Gian_Hien_Tai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/KiemTraSoNguyenTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Kiem_Tra_Nam_Nhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/ThucHanhKhaiBaoVaSuDungbien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Thuc_hanh_su_dung_toan_tu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Tinh_So_Ngay_trong_Thang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Tinh_chi_so_can_nang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/UngDungChuyenDoiTienTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module2/Ung_dung_doc_so_thanh_chu.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +63,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,27 +85,13 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.bai1_kiem_tra_so_nguyen_to.KiemTraSoNguyenTo">
-    <configuration name="KiemTraSoNguyenTo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KiemTraSoNguyenTo" />
-      <module name="LOOP JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KiemTraSoNguyenTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai1.KiemTraSoNguyenTo" />
-      <module name="LOOP JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai2.Main" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitap.Demo" />
       <module name="LOOP JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai2.*" />
+          <option name="PATTERN" value="baitap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTienLaiChoVay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai2.TinhTienLaiChoVay" />
+    <configuration name="Hien_thi_20_so_nguyen_to_dau_tien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai6_hien_thi_20_so_nguyen_to_dau_tien.Hien_thi_20_so_nguyen_to_dau_tien" />
       <module name="LOOP JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai2.*" />
+          <option name="PATTERN" value="bai6_hien_thi_20_so_nguyen_to_dau_tien.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +112,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai1_kiem_tra_so_nguyen_to.KiemTraSoNguyenTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai1_kiem_tra_so_nguyen_to.KiemTraSoNguyenTo" />
+    <configuration name="Hien_thi_cac_laoi_hinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai5_hien_thi_cac_loai_hinh.Hien_thi_cac_laoi_hinh" />
       <module name="LOOP JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai1_kiem_tra_so_nguyen_to.*" />
+          <option name="PATTERN" value="bai5_hien_thi_cac_loai_hinh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Thiet_ke_menu_cho_ung_dung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4_thiet_ke_menu_cho_ung_dung.Thiet_ke_menu_cho_ung_dung" />
+      <module name="LOOP JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai4_thiet_ke_menu_cho_ung_dung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tim_uoc_chung_lon_nhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3_tim_uoc_chung_lon_nhat.Tim_uoc_chung_lon_nhat" />
+      <module name="LOOP JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3_tim_uoc_chung_lon_nhat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.bai1_kiem_tra_so_nguyen_to.KiemTraSoNguyenTo" />
-        <item itemvalue="Application.KiemTraSoNguyenTo (1)" />
-        <item itemvalue="Application.TinhTienLaiChoVay" />
-        <item itemvalue="Application.KiemTraSoNguyenTo" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Hien_thi_20_so_nguyen_to_dau_tien" />
+        <item itemvalue="Application.Hien_thi_cac_laoi_hinh" />
+        <item itemvalue="Application.Thiet_ke_menu_cho_ung_dung" />
+        <item itemvalue="Application.Tim_uoc_chung_lon_nhat" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +172,10 @@
       <workItem from="1660184591731" duration="574000" />
       <workItem from="1660185196850" duration="80000" />
       <workItem from="1660186756744" duration="529000" />
-      <workItem from="1660190827365" duration="335000" />
+      <workItem from="1660190827365" duration="3041000" />
+      <workItem from="1660199663663" duration="1496000" />
+      <workItem from="1660223775715" duration="3917000" />
+      <workItem from="1660268070818" duration="49000" />
     </task>
     <servers />
   </component>
