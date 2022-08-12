@@ -64,7 +64,7 @@ public class Tim_Gia_Tri_Max {
 
                 }
             }
-            System.out.println("giá trị phần tử lơn nhất trong mảng là;  " + max + " ,ở vị trí " + index);
+            System.out.println("Giá trị phần tử lơn nhất trong mảng là;  " + max + " ,ở vị trí " + index);
         }
     }
 }

@@ -2,7 +2,7 @@ package bai4_chuong_trinh_chuyen_doi_nhiet_do;
 
 import java.util.Scanner;
 
-public class Chuong_trinh_chuyen_doi_nhiet_do {
+public class Chuong_Trinh_Chuyen_Doi_Nhiet_Do {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int input;

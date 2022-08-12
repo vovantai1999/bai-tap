@@ -2,7 +2,7 @@ package bai1_dao_nguoc_cac_phan_tu_cua_mang;
 
 import java.util.Scanner;
 
-public class Dao_nguoc_cac_phan_tu_trong_mang {
+public class Dao_Nguoc_Cac_Phan_Tu_Trong_Mang {
     public static void main(String[] args) {
         int size;
         int[] array;

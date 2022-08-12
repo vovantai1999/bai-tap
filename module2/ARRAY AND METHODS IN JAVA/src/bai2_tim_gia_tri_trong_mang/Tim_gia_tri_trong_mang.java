@@ -2,7 +2,7 @@ package bai2_tim_gia_tri_trong_mang;
 
 import java.util.Scanner;
 
-public class Tim_gia_tri_trong_mang {
+public class Tim_Gia_Tri_Trong_Mang {
     public static void main(String[] args) {
         String[] students = {"Tai", "Tung", "Hieu", "Khanh", "Binh", "Quy"};
         Scanner scanner = new Scanner(System.in);
