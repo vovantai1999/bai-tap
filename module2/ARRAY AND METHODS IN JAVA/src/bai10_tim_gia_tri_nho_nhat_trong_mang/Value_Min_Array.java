@@ -4,13 +4,14 @@ import java.util.*;
 public class Value_Min_Array {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+//        bước 1: khai báo mảng số nguyên gồm size phần tử.
         int size = 5;
         int arr[] = new int[size];
 //        int numbers = scanner.nextInt();
         for (int i = 0; i < size; i++) {
             arr[i] = scanner.nextInt();
         }
-        System.out.print(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < min) {
