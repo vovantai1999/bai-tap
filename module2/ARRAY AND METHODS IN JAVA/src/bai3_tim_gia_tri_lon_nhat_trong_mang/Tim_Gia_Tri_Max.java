@@ -10,7 +10,7 @@ public class Tim_Gia_Tri_Max {
 //        do {
 //            System.out.println("Nhập số phần tử: ");
 //            size = scanner.nextInt();
-//            if (size > 20);
+//            if (size > 20)
 //            System.out.println(" không được vượt quá 20 phần tử ");
 //        }
 //        while (size > 20);
