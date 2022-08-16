@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c976f05-603e-49c6-b519-d2e8c50020f0" name="Changes" comment="" />
+    <list default="true" id="12ac9dde-52e4-424f-b498-53791b307148" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CLASS AND OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASS AND OOP/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2DLF5jwES2zLUXBZTd3Zd4B0Xsz" />
+  <component name="ProjectId" id="2DNiFDHg0LOtR2HGYKr8brLrSxb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,26 +35,21 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="bai2_phuong_trinh_bac_hai" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bubble.sort.algo.BubbleSort" />
-      <module name="CLASS AND OOP" />
+  <component name="RunManager" selected="Application.InsertionSort">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4_minh_hoa_thuat_toan_sap_xep_chen.InsertionSort" />
+      <module name="Thuat_Toan_Sap_Xep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bubble.sort.algo.*" />
+          <option name="PATTERN" value="bai4_minh_hoa_thuat_toan_sap_xep_chen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hinh_Chu_Nhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai1_lop_hinh_chu_nhat.Hinh_Chu_Nhat" />
-      <module name="CLASS AND OOP" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3_cai_dat_thuat_toan_sap_xep_chon.Main" />
+      <module name="Thuat_Toan_Sap_Xep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai1_lop_hinh_chu_nhat.*" />
+          <option name="PATTERN" value="bai3_cai_dat_thuat_toan_sap_xep_chon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selection.sort.algo.SelectionSort" />
-      <module name="CLASS AND OOP" />
+    <configuration name="Minh_Hoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2_minh_hoa_thuat_toan_sap_xep_noi_bot.Minh_Hoa" />
+      <module name="Thuat_Toan_Sap_Xep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selection.sort.algo.*" />
+          <option name="PATTERN" value="bai2_minh_hoa_thuat_toan_sap_xep_noi_bot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sap_Xep_Noi_Bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai1_thuat_toan_sap_xep_noi_bot.Sap_Xep_Noi_Bot" />
+      <module name="Thuat_Toan_Sap_Xep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai1_thuat_toan_sap_xep_noi_bot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,24 +97,11 @@
       </method>
     </configuration>
     <configuration name="Selection_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo_selection_sort.Selection_Sort" />
-      <module name="CLASS AND OOP" />
+      <option name="MAIN_CLASS_NAME" value="bai3_cai_dat_thuat_toan_sap_xep_chon.Selection_Sort" />
+      <module name="Thuat_Toan_Sap_Xep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo_selection_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Xay_Dung_Lop_Stop_Watch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai3_xay_dung_lop_stop_watch.Xay_Dung_Lop_Stop_Watch" />
-      <module name="CLASS AND OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai3_xay_dung_lop_stop_watch.*" />
+          <option name="PATTERN" value="bai3_cai_dat_thuat_toan_sap_xep_chon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,28 +111,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.Xay_Dung_Lop_Stop_Watch" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Hinh_Chu_Nhat" />
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.Selection_Sort" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Minh_Hoa" />
+        <item itemvalue="Application.Sap_Xep_Noi_Bot" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c976f05-603e-49c6-b519-d2e8c50020f0" name="Changes" comment="" />
-      <created>1660470276666</created>
+      <changelist id="12ac9dde-52e4-424f-b498-53791b307148" name="Changes" comment="" />
+      <created>1660545837034</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660470276666</updated>
-      <workItem from="1660470278031" duration="141000" />
-      <workItem from="1660485726140" duration="4498000" />
-      <workItem from="1660526155611" duration="5011000" />
-      <workItem from="1660545776665" duration="60000" />
-      <workItem from="1660549997110" duration="2937000" />
-      <workItem from="1660621574839" duration="26000" />
+      <updated>1660545837034</updated>
+      <workItem from="1660545838542" duration="951000" />
+      <workItem from="1660546912305" duration="3055000" />
+      <workItem from="1660621602215" duration="2554000" />
     </task>
     <servers />
   </component>
