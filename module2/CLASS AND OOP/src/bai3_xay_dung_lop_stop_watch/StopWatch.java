@@ -39,5 +39,9 @@ public class StopWatch {
     public void stop() {
         endTime = System.currentTimeMillis();
     }
+
+    public static void main(String[] args) {
+
+    }
 }
 
