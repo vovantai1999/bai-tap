@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19cf0300-93c7-431b-8f49-8726fd40ad66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STATIC METHOR.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static_methor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static_methor/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static_methor/StudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASS AND OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASS AND OOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SORT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SORT/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,9 +45,35 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StudentDemo">
+  <component name="RunManager" selected="Application.Car">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static_property.Car" />
+      <module name="STATIC METHOR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="static_property.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Student$TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="static_methor.Student$TestStaticMethod" />
+      <module name="STATIC METHOR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="static_methor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static_methor.Student" />
       <module name="STATIC METHOR" />
       <extension name="coverage">
         <pattern>
@@ -94,6 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Car" />
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.StudentDemo" />
         <item itemvalue="Application.StudentDemo$TestStaticMethod" />
         <item itemvalue="Application.Student$TestStaticMethod" />
@@ -110,6 +131,8 @@
       <updated>1660792574725</updated>
       <workItem from="1660792576017" duration="3429000" />
       <workItem from="1660797378100" duration="789000" />
+      <workItem from="1660805281909" duration="2406000" />
+      <workItem from="1660807718318" duration="1571000" />
     </task>
     <servers />
   </component>

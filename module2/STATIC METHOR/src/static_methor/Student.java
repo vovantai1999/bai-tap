@@ -23,7 +23,7 @@ public class Student {
         System.out.println(rollno + " " + name + " " + collge);
     }
 
-    public static class TestStaticMethod {
+//    public static class TestStaticMethod {
         public static void main(String[] args) {
             Student.change(); // gọi phương thức thay đổi
 //            tạo đối tượng
@@ -37,4 +37,4 @@ public class Student {
 
         }
     }
-}
+//}
