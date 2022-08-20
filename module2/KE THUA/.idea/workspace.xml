@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4fca468-7c7c-41a4-8563-dba468f7cab6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KE THUA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai1_geometry/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai1_geometry/Geometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai1_geometry/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai1_geometry/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai1_geometry/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLASS AND OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLASS AND OOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SORT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SORT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STATIC METHOR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STATIC METHOR/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,13 +46,70 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai1_geometry.Test" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bai2_circle_cyliner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.bai2_circle_cyliner.Test">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2_circle_cyliner.Main" />
       <module name="KE THUA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai1_geometry.*" />
+          <option name="PATTERN" value="bai2_circle_cyliner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2_circle_cyliner.Main" />
+      <module name="KE THUA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai2_circle_cyliner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2_circle_cyliner.Main" />
+      <module name="KE THUA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai2_circle_cyliner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3_point.Point" />
+      <module name="KE THUA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3_point.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai2_circle_cyliner.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2_circle_cyliner.Test" />
+      <module name="KE THUA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai2_circle_cyliner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,7 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.bai2_circle_cyliner.Test" />
+        <item itemvalue="Application.Point" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660899401573</updated>
       <workItem from="1660899403166" duration="4115000" />
-      <workItem from="1660918085005" duration="611000" />
+      <workItem from="1660918085005" duration="5942000" />
+      <workItem from="1661004737217" duration="5278000" />
     </task>
     <servers />
   </component>

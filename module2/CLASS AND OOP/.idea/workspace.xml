@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c976f05-603e-49c6-b519-d2e8c50020f0" name="Changes" comment="" />
+    <list default="true" id="8c976f05-603e-49c6-b519-d2e8c50020f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SORT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SORT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STATIC METHOR/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STATIC METHOR/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STATIC METHOR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STATIC METHOR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STATIC METHOR/src/static_methor/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STATIC METHOR/src/static_methor/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STATIC METHOR/src/static_methor/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STATIC METHOR/src/static_methor/StudentDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +45,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,13 +54,13 @@
       <recent name="bai2_phuong_trinh_bac_hai" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bubble.sort.algo.BubbleSort" />
+  <component name="RunManager" selected="Application.StaticDemo">
+    <configuration name="FanClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4_xay_dung_lop_fan.FanClass" />
       <module name="CLASS AND OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bubble.sort.algo.*" />
+          <option name="PATTERN" value="bai4_xay_dung_lop_fan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selection.sort.algo.SelectionSort" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap_ve_nha.Main" />
       <module name="CLASS AND OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selection.sort.algo.*" />
+          <option name="PATTERN" value="bai_tap_ve_nha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selection_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo_selection_sort.Selection_Sort" />
+    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap_ve_nha.StaticDemo" />
       <module name="CLASS AND OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo_selection_sort.*" />
+          <option name="PATTERN" value="bai_tap_ve_nha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xay_Dung_Lop_Stop_Watch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai3_xay_dung_lop_stop_watch.Xay_Dung_Lop_Stop_Watch" />
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3_xay_dung_lop_stop_watch.StopWatch" />
       <module name="CLASS AND OOP" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.Xay_Dung_Lop_Stop_Watch" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.StaticDemo" />
+        <item itemvalue="Application.FanClass" />
+        <item itemvalue="Application.StopWatch" />
         <item itemvalue="Application.Hinh_Chu_Nhat" />
-        <item itemvalue="Application.Selection_Sort" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +144,13 @@
       <workItem from="1660545776665" duration="60000" />
       <workItem from="1660549997110" duration="2937000" />
       <workItem from="1660621574839" duration="26000" />
+      <workItem from="1660638359297" duration="2473000" />
+      <workItem from="1660641057666" duration="4188000" />
+      <workItem from="1660662831951" duration="33000" />
+      <workItem from="1660718453687" duration="13564000" />
+      <workItem from="1660743519983" duration="2097000" />
+      <workItem from="1660786428206" duration="4269000" />
+      <workItem from="1660809343819" duration="112000" />
     </task>
     <servers />
   </component>
