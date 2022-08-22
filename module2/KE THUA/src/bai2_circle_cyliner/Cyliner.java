@@ -19,6 +19,6 @@ public class Cyliner extends Circle {
         return Math.pow(getRadius(),2) * hight * Math.PI;
     }
     public String toString(){
-        return ("Hight = " + hight + super.toString());
+        return ("Hight = " + hight   + super.toString());
     }
 }
