@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54c06762-0101-401d-aeea-0d0a24547a01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TiTV.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overloading/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overloading/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overrding/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overrding/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overrding/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overrding/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overrding/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ke_thua_overrding/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KE THUA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KE THUA/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +42,20 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ke_thua_overloading.Test">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstract_class.Main" />
+      <module name="TiTV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstract_class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ke_thua_overrding.Test" />
       <module name="TiTV" />
@@ -85,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ke_thua_overloading.Test" />
         <item itemvalue="Application.Test" />
       </list>
@@ -101,6 +101,9 @@
       <workItem from="1660877740571" duration="619000" />
       <workItem from="1660892426065" duration="4812000" />
       <workItem from="1660899361083" duration="40000" />
+      <workItem from="1661175604379" duration="1344000" />
+      <workItem from="1661177486612" duration="1517000" />
+      <workItem from="1661236844750" duration="161000" />
     </task>
     <servers />
   </component>
