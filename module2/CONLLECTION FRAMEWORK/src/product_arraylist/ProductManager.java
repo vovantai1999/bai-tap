@@ -3,10 +3,8 @@ package product_arraylist;
 import sun.nio.cs.ext.ISO2022_CN_CNS;
 
 import javax.sound.midi.Soundbank;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.IdentityHashMap;
-import java.util.Scanner;
+import java.text.NumberFormat;
+import java.util.*;
 
 import static com.sun.xml.internal.bind.v2.schemagen.Util.equalsIgnoreCase;
 import static com.sun.xml.internal.bind.v2.schemagen.Util.getParentUriPath;
