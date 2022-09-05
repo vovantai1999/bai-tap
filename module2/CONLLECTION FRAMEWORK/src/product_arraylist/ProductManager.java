@@ -33,7 +33,7 @@ public class ProductManager {
     public boolean isIdInProductList(int id) {
         if (!productList.isEmpty()) {
             for (Product products : productList) {
-                if (products.getId() == id) ;
+                if (products.getId() == id)
                 return true;
             }
         }
@@ -69,12 +69,16 @@ public class ProductManager {
 
 
         // nhập vào id, nếu id đã có thì phải nhập lại.
+        boolean isId = true;
         do {
             System.out.println("Product id: ");
             id = input.nextInt();
             if (isIdInProductList(id))
                 System.out.println(" id đã có trong danh sách ");
-        } while (isIdInProductList(id));
+            else{
+                isId =false;
+            }
+        } while (isId);
 
         System.out.println(" Product price: ");
         price = input.nextDouble();
@@ -131,7 +135,10 @@ public class ProductManager {
                                 break;
 
                             case '0':
-                                menuManager();
+                                System.exit(0);
+                                break;
+                            default:
+                                System.out.println("ban nhap ko hop le vui long nhap lai");
                                 break;
 
                         }
@@ -210,7 +217,7 @@ public class ProductManager {
 
     public void sortPriceDecrease() {
         if (productList.isEmpty()) {
-            System.out.println("There are no products in the list !");
+            System.out.println("không có sản phẩm nào trong danh sách !");
         } else {
             PriceDereaseComparator priceDereaseComparator = new PriceDereaseComparator();
             Collections.sort(productList, priceDereaseComparator);
@@ -224,16 +231,16 @@ public class ProductManager {
     public void menuManager() {
         char choice = '?';
         while (choice != '0') {
-            System.out.println("Menu product Manager ");
-            System.out.println("1. Thêm sản phẩm ");
-            System.out.println("2. Sửa id sản phẩm ");
-            System.out.println("3. Sưả tên sản phẩm  ");
-            System.out.println("4. Xóa sản phẩm  ");
-            System.out.println("5. Hiển thị danh sách sản phẩm  ");
-            System.out.println("6. Sắp xếp sản phẩm tắng dần ");
-            System.out.println("7. Sắp xếp sản phẩm giảm dần ");
-            System.out.println("0. Thoát");
-            System.out.println("------------------------");
+            System.out.println("|------------------------ Menu product Manager---------------------- |");
+            System.out.println("|                     1. Thêm sản phẩm                               |");
+            System.out.println("|                     2. Sửa id sản phẩm                             |");
+            System.out.println("|                     3. Sửa  tên sản phẩm                           |");
+            System.out.println("|                     4. Xóa sản phẩm                                |");
+            System.out.println("|                     5. Hiển thị danh sách sản phẩm                 |");
+            System.out.println("|                     6. Sắp xếp sản phẩm tắng dần                   |");
+            System.out.println("|                     7. Sắp xếp sản phẩm giảm dần                   |");
+            System.out.println("|                     0. Thoát                                       |");
+            System.out.println("|------------------------------------------------------------------- | ");
             System.out.println("choice : ");
             Scanner change = new Scanner(System.in);
             choice = change.nextLine().charAt(0);
