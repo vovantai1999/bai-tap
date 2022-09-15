@@ -1,6 +1,6 @@
-package shop.model.view;
+package shop.view;
 
-import shop.model.utils.AppUtils;
+import shop.utils.AppUtils;
 
 import java.util.Scanner;
 
@@ -8,18 +8,7 @@ public class MemberView {
     public static void launch() {
         int option;
         do {
-//            System.out.print("╔═══════════════════════════════════════════════════════════════════════════════╗\n" +
-//                    "║                                                                               ║\n" +
-//                    "║                            MEMBER MENU                                        ║\n" +
-//                    "║                                                                               ║\n" +
-//                    "║                      [1] Hiển thị sản phẩm                                    ║\n" +
-//                    "║                      [2] Tìm kiếm sản phẩm                                    ║\n" +
-//                    "║                      [3] Sắp xếp sản phẩm                                     ║\n" +
-//                    "║                      [4] Tạo Order                                            ║\n" +
-//                    "║                      [5] Xem danh sách Order                                  ║\n" +
-//                    "║                      [0] Thoát                                                ║\n" +
-//                    "║                                                                               ║\n" +
-//                    "╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+
             System.out.println("|------------------------ MEMBER MENU--------------------|");
             System.out.println("|                     1. Hiển Thị sản phẩm               |");
             System.out.println("|                     2. Tìm kiếm sản phẩm               |");

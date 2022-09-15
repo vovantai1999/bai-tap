@@ -1,6 +1,6 @@
-package shop.model.service;
+package shop.service;
 
-import shop.model.model.User;
+import shop.model.User;
 
 import java.util.List;
 

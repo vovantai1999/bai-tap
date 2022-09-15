@@ -1,6 +1,6 @@
-package shop.model.utils;
+package shop.utils;
 
-import shop.model.view.InputOption;
+import shop.view.InputOption;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

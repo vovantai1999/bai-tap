@@ -1,12 +1,12 @@
-package shop.model.view;
+package shop.view;
 
-import shop.model.model.Role;
-import shop.model.model.User;
-import shop.model.service.IUserService;
-import shop.model.service.UserService;
-import shop.model.utils.AppUtils;
-import shop.model.utils.InstanUtils;
-import shop.model.utils.ValidateUtils;
+import shop.model.Role;
+import shop.model.User;
+import shop.service.IUserService;
+import shop.service.UserService;
+import shop.utils.AppUtils;
+import shop.utils.InstanUtils;
+import shop.utils.ValidateUtils;
 
 import java.util.List;
 import java.util.Scanner;

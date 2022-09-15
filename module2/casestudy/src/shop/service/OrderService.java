@@ -1,7 +1,8 @@
-package shop.model.service;
+package shop.service;
 
-import shop.model.model.Order;
-import shop.model.utils.CSVUtils;
+import shop.model.Order;
+import shop.utils.CSVUtils;
+import shop.service.IOrderService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,9 @@
-package shop.model.model;
+package shop.model;
 
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class Order {
     private Long id;

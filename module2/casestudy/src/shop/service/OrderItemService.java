@@ -1,12 +1,13 @@
-package shop.model.service;
+package shop.service;
 
-import shop.model.model.OrderItem;
-import shop.model.utils.CSVUtils;
+
+import shop.model.OrderItem;
+import shop.utils.CSVUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderItemService implements IOrderItemService {
+public class OrderItemService implements IOrderItemService{
     private final static String PATH = "data/order-items.csv";
     private static OrderItemService instance;
 
@@ -53,5 +54,6 @@ public class OrderItemService implements IOrderItemService {
         }
         return null;
     }
+
 
 }

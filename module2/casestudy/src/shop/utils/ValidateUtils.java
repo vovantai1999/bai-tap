@@ -1,4 +1,4 @@
-package shop.model.utils;
+package shop.utils;
 
 import java.util.regex.Pattern;
 

@@ -1,10 +1,10 @@
-package shop.model.view;
+package shop.view;
 
-import shop.model.model.Product;
-import shop.model.service.IProductService;
-import shop.model.service.ProductService;
-import shop.model.utils.AppUtils;
-import shop.model.utils.InstanUtils;
+import shop.model.Product;
+import shop.service.IProductService;
+import shop.service.ProductService;
+import shop.utils.AppUtils;
+import shop.utils.InstanUtils;
 
 import java.util.List;
 import java.util.Scanner;
@@ -265,18 +265,18 @@ public class ProductView {
                         }
                     }
                     Product product = productService.findById(id);
-                    System.out.println("=========================================================DANH SÁCH =========================================================");
+                    System.out.println("-------------------------------------------------------DANH SÁCH --------------------------------------------------");
                     System.out.printf("%-15s %-30s %-25s %-20s %-20s %-20s\n", "Id", "Tên sản phẩm", "Giá sản phẩm", "Số lượng", "Ngày tạo", "Ngày cập nhật");
-                    System.out.println("------------------------------------------------------------------------------------------------------------------------------------");
+                    System.out.println(".....................................................................................................................");
                     System.out.printf("%-15d %-30s %-25s %-20s %-20s %-20s\n", product.getId(), product.getTitle(), AppUtils.doubleToVND(product.getPrice()), AppUtils.doubleToKg(product.getQuantity()), InstantUtils.instantToString(product.getCreatedAt()), product.getUpdatedAt() == null ? "" : InstantUtils.instantToString(product.getUpdatedAt()));
                     break;
                 case 2:
                     String title = inputTitle(InputOption.FIND);
                     Product product1 = productService.findByTitle(title);
                     if (product1 != null) {
-                        System.out.println("=========================================================DANH SÁCH=========================================================");
+                        System.out.println("--------------------------------------------------------------DANH SÁCH-----------------------------------------------------------");
                         System.out.printf("%-15s %-30s %-25s %-20s %-20s %-20s\n", "Id", "Tên sản phẩm", "Giá sản phẩm", "Số lượng", "Ngày tạo", "Ngày cập nhật");
-                        System.out.println("------------------------------------------------------------------------------------------------------------------------------------");
+                        System.out.println("...................................................................................................................................");
                         System.out.printf("%-15d %-30s %-25s %-20s %-20s %-20s\n", product1.getId(),
                                 product1.getTitle(), AppUtils.doubleToVND(product1.getPrice()),
                                 AppUtils.doubleToKg(product1.getQuantity()),

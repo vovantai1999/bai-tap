@@ -1,8 +1,8 @@
-package shop.model.service;
+package shop.service;
 
-import shop.model.model.Role;
-import shop.model.model.User;
-import shop.model.utils.CSVUtils;
+import shop.model.Role;
+import shop.model.User;
+import shop.utils.CSVUtils;
 
 import java.time.Instant;
 import java.util.ArrayList;

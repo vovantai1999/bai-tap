@@ -1,6 +1,6 @@
-package shop.model.view;
+package shop.view;
 
-import shop.model.utils.AppUtils;
+import shop.utils.AppUtils;
 
 import java.util.Scanner;
 

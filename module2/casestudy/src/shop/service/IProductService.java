@@ -1,6 +1,6 @@
-package shop.model.service;
+package shop.service;
 
-import shop.model.model.Product;
+import shop.model.Product;
 
 import java.util.List;
 
@@ -15,6 +15,7 @@ public interface IProductService {
 
     Product findByTitle(String title);
 
+
     boolean exist(long id);
 
     boolean existByName(String name);
@@ -26,5 +27,9 @@ public interface IProductService {
     List<Product> findAllOrderByPriceASC();
 
     List<Product> findAllOrderByPriceDESC();
+
+    Product getProductById(long productId);
+
+    List<Product> getProducts();
 }
 

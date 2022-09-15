@@ -1,7 +1,7 @@
-package shop.model.service;
+package shop.service;
 
-import shop.model.model.Product;
-import shop.model.utils.CSVUtils;
+import shop.model.Product;
+import shop.utils.CSVUtils;
 
 import java.time.Instant;
 import java.util.ArrayList;
@@ -152,5 +152,23 @@ public class ProductService implements IProductService {
             }
         });
         return products;
+    }
+
+    @Override
+    public Product getProductById(long productId) {
+        for (Product product : getProducts()) {
+            if (product.getId() == productId) ;
+            return product;
+        }
+        return new Product();
+    }
+    @Override
+    public List<Product> getProducts() {
+        List<Product> newProducts = new ArrayList<>();
+        List<String> records = CSVUtils.read(PATH);
+        for (String record : records) {
+            newProducts.add(Product.parse(record));
+        }
+        return newProducts;
     }
 }

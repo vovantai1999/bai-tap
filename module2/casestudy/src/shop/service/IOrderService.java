@@ -1,10 +1,11 @@
-package shop.model.service;
+package shop.service;
 
-import shop.model.model.Order;
+import shop.model.Order;
 
 import java.util.List;
 
 public interface IOrderService {
+
     List<Order> findAll();
 
     void add(Order newOrder);

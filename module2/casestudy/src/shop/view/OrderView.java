@@ -1,12 +1,15 @@
-package shop.model.view;
+package shop.view;
 
-import shop.model.model.Order;
-import shop.model.model.OrderItem;
-import shop.model.model.Product;
-import shop.model.service.*;
-import shop.model.utils.AppUtils;
-import shop.model.utils.InstanUtils;
-import shop.model.utils.ValidateUtils;
+import shop.model.Order;
+import shop.model.OrderItem;
+import shop.model.Product;
+import shop.service.*;
+import shop.service.OrderItemService;
+import shop.service.ProductService;
+import shop.service.OrderService;
+import shop.utils.AppUtils;
+import shop.utils.InstanUtils;
+import shop.utils.ValidateUtils;
 
 import java.time.Instant;
 import java.util.List;
@@ -137,16 +140,16 @@ public class OrderView {
 
     public void showPaymentInfo(OrderItem orderItem, Order order) {
         try {
-            System.out.println("\t\t\t\t╔═══════════════════════════════════════════════════════════════════════════╗");
-            System.out.println("\t\t\t\t║                                 HÓA ĐƠN                                   ║");
-            System.out.println("\t\t\t\t╠═══════════════════════════════════════════════════════════════════════════╣");
-            System.out.printf("\t\t\t\t║\t%-20s\t %-25s %16s ║\n", "Tên đầy đủ   :          ║", order.getFullName(), "");
-            System.out.printf("\t\t\t\t║\t%-20s\t %-25s %16s ║\n", "Số điện thoại:          ║", order.getPhone(), "");
-            System.out.printf("\t\t\t\t║\t%-20s\t %-25s %16s ║\n", "Địa chỉ      :          ║", order.getAddress(), "");
-            System.out.printf("\t\t\t\t║\t%-20s\t %-25s %16s ║\n", "Ngày tạo     :          ║", InstantUtils.instantToString(orderItem.getCreatAt()), "");
-            System.out.println("\t\t\t\t╠════╦═══════════════════╦══╩══════════════════════════╦════════════════════╣");
-            System.out.printf("\t\t\t\t║%-4s║%-17s\t ║%-28s ║%-19s ║\n", "STT", "Tên sản phẩm", "Số lượng", "Giá");
-            System.out.println("\t\t\t\t╠════╬═══════════════════╬═════════════════════════════╬════════════════════╣");
+            System.out.println("\t\t\t\t-----------------------------------------------------------------------------");
+            System.out.println("\t\t\t\t|                                 HÓA ĐƠN                                   |");
+            System.out.println("\t\t\t\t----------------------------------------------------------------------------");
+            System.out.printf("\t\t\t\t|\t%-20s\t %-25s %16s |\n", "Tên đầy đủ   :          |", order.getFullName(), "");
+            System.out.printf("\t\t\t\t|\t%-20s\t %-25s %16s |\n", "Số điện thoại:          |", order.getPhone(), "");
+            System.out.printf("\t\t\t\t|\t%-20s\t %-25s %16s |\n", "Địa chỉ      :          |", order.getAddress(), "");
+            System.out.printf("\t\t\t\t|\t%-20s\t %-25s %16s |\n", "Ngày tạo     :          |", InstantUtils.instantToString(orderItem.getCreatAt()), "");
+            System.out.println("\t\t\t\t------------------------------------------------------------------------------");
+            System.out.printf("\t\t\t\t|%-4s|%-17s\t |%-28s |%-19s |\n", "STT", "Tên sản phẩm", "Số lượng", "Giá");
+            System.out.println("\t\t\t\t------------------------------------------------------------------------------");
             List<OrderItem> orderItems = orderItemService.findAll();
             double sum = 0;
             int count = 0;
@@ -156,15 +159,15 @@ public class OrderView {
                     count++;
                     orderItem1.setTotal(sum);
                     orderItemService.update(orderItem1);
-                    System.out.printf("\t\t\t\t║ %1s  ║  %-17s║\t %-25s ║  %-18s║\n",
+                    System.out.printf("\t\t\t\t| %1s  |  %-17s|\t %-25s |  %-18s|\n",
                             count,
                             orderItem1.getProductName(),
                             orderItem1.getQuantity(),AppUtils.doubleToVND(orderItem1.getPrice()));
                 }
             }
-            System.out.println("\t\t\t\t╠════╩═══════════════════╩═════════════════════════════╩════════════════════╣");
-            System.out.printf("\t\t\t\t║                                                  Tổng: %17s  ║\n",AppUtils.doubleToVND(sum));
-            System.out.println("\t\t\t\t╚═══════════════════════════════════════════════════════════════════════════╝\n\n");
+            System.out.println("\t\t\t\t|----|-------------------|-----------------------------|--------------------|");
+            System.out.printf("\t\t\t\t|                                                  Tổng: %17s  |\n",AppUtils.doubleToVND(sum));
+            System.out.println("\t\t\t\t|---------------------------------------------------------------------------|\n\n");
             boolean is = true;
             do {
                 System.out.println("Nhấn 'q' để trở lại \t|\t 'e' để thoát chương trình");
@@ -193,9 +196,9 @@ public class OrderView {
         OrderItem newOrderItem = new OrderItem();
         double sum = 0;
         try {
-            System.out.println("===============================================================LIST ORDER===============================================================");
+            System.out.println("-------------------------------------------------------------------LIST ORDER-----------------------------------------------------------------");
             System.out.printf("|%-15s %-15s %-12s %-15s %-15s %-10s %-10s %-15s %-15s    |\n", "   Id", "Tên khách hàng", "  SĐT", "Địa chỉ", "Tên sản phẩm", "Số lượng", "   Giá", "   Tổng" , "  Ngày tạo ");
-            System.out.println("|--------------------------------------------------------------------------------------------------------------------------------------|");
+            System.out.println("|----------------------------------------------------------------------------------------------------------------------------------------------|");
             for (Order order : orders) {
                 for (OrderItem orderItem : orderItems) {
                     if (orderItem.getOrderId() == order.getId()) {
@@ -212,16 +215,15 @@ public class OrderView {
                         AppUtils.doubleToKg(newOrderItem.getQuantity()),
                         AppUtils.doubleToVND(newOrderItem.getPrice()),
                         AppUtils.doubleToVND(newOrderItem.getPrice() * newOrderItem.getQuantity()),
-                        InstantUtils.instantToString(newOrderItem.getCreatAt())
-                );
+                        InstantUtils.instantToString(newOrderItem.getCreatAt()));
+
                 sum += newOrderItem.getPrice() * newOrderItem.getQuantity();
             }
             Order order = new Order();
             order.setGrandTotal(sum);
             System.out.println("|--------------------------------------------------------------------------------------------------------------------------------------|");
-
             System.out.printf("|%-100s Tổng tiền: %12s          |\n"," ",AppUtils.doubleToVND(order.getGrandTotal()));
-            System.out.println("|======================================================================================================================================|\n\n");
+            System.out.println("|-------------------------------------------------------------------------------------------------------------------------------------- |\n\n");
             boolean is = true;
             do {
                 System.out.println("Nhấn 'q' để trở lại \t|\t 'e' để thoát chương trình");

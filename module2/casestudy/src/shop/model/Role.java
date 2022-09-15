@@ -1,4 +1,4 @@
-package shop.model.model;
+package shop.model;
 
 public enum Role {
     ADMIN("ADMIN"),

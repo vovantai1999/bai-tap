@@ -1,4 +1,4 @@
-package shop.model.model;
+package shop.model;
 
 import java.time.Instant;
 

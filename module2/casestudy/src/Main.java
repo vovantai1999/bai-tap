@@ -1,4 +1,4 @@
-import shop.model.view.MainLauncher;
+import shop.view.MainLauncher;
 
 public class Main {
         public static void main(String[] args) {
