@@ -15,6 +15,8 @@
       <change beforePath="$PROJECT_DIR$/../CLEAN CODE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLEAN CODE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CLEAN CODE/CLEAN CODE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CLEAN CODE/CLEAN CODE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CONLLECTION FRAMEWORK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CONLLECTION FRAMEWORK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONLLECTION FRAMEWORK/src/product_arraylist/PriceDereaseComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CONLLECTION FRAMEWORK/src/product_arraylist/PriceDereaseComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONLLECTION FRAMEWORK/src/product_arraylist/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CONLLECTION FRAMEWORK/src/product_arraylist/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA STACK QUEUE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DSA STACK QUEUE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LOOP JAVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LOOP JAVA/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TEXT FILE/src/coppy_file/target_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TEXT FILE/src/coppy_file/target_file.txt" afterDir="false" />
@@ -53,7 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/BaiTap/module2/tailieu/Case-module2/rice-shop-management&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BaiTap/module2/casestudy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,7 +111,12 @@
       <workItem from="1663118214916" duration="2917000" />
       <workItem from="1663141951448" duration="9238000" />
       <workItem from="1663165743435" duration="6983000" />
-      <workItem from="1663204304766" duration="5645000" />
+      <workItem from="1663204304766" duration="6249000" />
+      <workItem from="1663213892894" duration="3123000" />
+      <workItem from="1663229861367" duration="4839000" />
+      <workItem from="1663294164180" duration="5892000" />
+      <workItem from="1663316356381" duration="2994000" />
+      <workItem from="1663321395958" duration="2173000" />
     </task>
     <servers />
   </component>

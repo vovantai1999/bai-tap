@@ -190,8 +190,11 @@ public class ProductView {
         double price;
         do {
             price = AppUtils.retryParseDouble();
-            if (price < 0) {
+            if (price <= 0) {
                 System.out.println("Nhập sai! Giá phải lớn hơn không (giá > 0)");
+                System.out.println("Nhập vào giá");
+                System.out.print("⭆ ");
+                price = scanner.nextDouble();
             }
         } while (price < 0);
         return price;
@@ -209,8 +212,11 @@ public class ProductView {
         double quantity;
         do {
             quantity = AppUtils.retryParseDouble();
-            if (quantity < 0) {
+            if (quantity <= 0) {
                 System.out.println("Nhập sai! Số lượng phải lớn hơn không (số lượng > 0)");
+                System.out.println("Nhập vào số lượng");
+                System.out.print("⭆ ");
+                quantity = scanner.nextDouble();
             }
         } while (quantity < 0);
         return quantity;

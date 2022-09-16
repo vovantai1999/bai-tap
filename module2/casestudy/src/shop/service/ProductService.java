@@ -11,7 +11,7 @@ import java.util.function.Predicate;
 
 public class ProductService implements IProductService {
 
-    public final static String PATH = "data/products.csv";
+    public final static String PATH = "data/products";
 
     private static ProductService instance;
 
