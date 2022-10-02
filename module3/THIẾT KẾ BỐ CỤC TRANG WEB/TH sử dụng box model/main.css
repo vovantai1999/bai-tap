@@ -1,0 +1,21 @@
+.boxmodel{
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px;
+    border:solid 10px ;
+    border-color: aqua red blue greenyellow;
+}
+.boxmodel p{
+    border: 3px dotted darkblue;
+    padding: 10px;
+}
+
+#boxmodel1{
+    margin-bottom: 20px;
+}
+#boxmodel2{
+    margin-bottom: 40px;
+}
+#boxmodel3{
+    margin-bottom: 60px;
+}
