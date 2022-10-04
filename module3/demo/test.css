@@ -1,0 +1,66 @@
+/* transform */
+#transform p {
+    background: #cc0000;
+    height: 50px;
+    width: 80px;
+}
+#transform p:hover {
+    background: #cc0000;
+    height: 50px;
+    width: 80px;
+    transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+}
+
+/* transition */
+#transition p {
+    background: blue;
+    transition: height 2s;
+    -moz-transition: height 2s;
+    -webkit-transition: height 2s;
+    -o-transition: height 2s;
+    height: 23px;
+    width: 120px;
+    color: white;
+}
+
+#transition p:hover {
+    height: 100px;
+}
+
+/* animation */
+#animation p {
+    background-color: bisque;
+    border: 1px solid red;
+    text-align: center;
+    width: 100px;
+    position: relative;
+    animation: myAnimation 5s ease-out infinite;
+    -moz-animation: myAnimation 5s ease-out infinite;
+    -webkit-animation: myAnimation 5s ease-out infinite;
+    -o-animation: myAnimation 5s ease-out infinite;
+}
+@keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/* Hien thi cho Firefox */
+@-moz-keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/* Hien thi cho Safari and Chrome */
+@-webkit-keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/* Hien thi cho Opera */
+@-o-keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 200px;}
+}
