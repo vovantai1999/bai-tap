@@ -1,0 +1,121 @@
+*{font-family: Arial, Helvetica, sans-serif ;
+}
+body{
+    background-color: rgb(227, 233, 239);
+
+
+}
+header > h1 {
+    text-align: center;
+    color: gray;
+    font-size: 56px;
+    text-shadow: 3px 4px lightblue;
+    animation: doimau 1.5s infinite;
+}
+@keyframes doimau{
+    from{
+        color: darkblue;
+    }
+    to{
+        color:darkgreen;
+    }
+}
+
+div.car{
+    width: 25%;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    border-radius: 13px;
+    margin: 1%;
+
+}
+div.car > img{
+    width: 100%;
+    transition: transform .5s;
+}
+.cars{
+    display: flex;
+    
+
+}
+div.car > img:hover{
+    transform: rotate(-20deg);
+}
+/* css nav  */
+nav{
+    background-color: bisque;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex ;
+}
+nav ul > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+nav ul > li > a:hover{
+    background-color: brown;
+    color: white;
+    text-decoration: underline;
+}
+ /* css footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+footer h1, footer p{
+    text-align: center;
+}
+.col25{
+    width:25%;
+    text-align: left
+    
+}
+.col50{
+    width: 50%;
+    
+}
+div.contact{
+    display:flex ;
+}
+footer ul{
+    list-style-type:none;
+}
+table.msg{
+    width: 100%;
+}
+input[type=text]{
+    width: 90%;
+    padding: 8px;
+}
+textarea{
+    width: 88%;
+    padding: 5%;
+    height: 20px;
+
+}
+input[type=submit]{
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border: 1px orange;
+    
+}
+table.msg tr:last-child{
+    text-align: center;
+}
+.subcontent{
+    display: none;
+    position:absolute;
+    background-color: bisque;
+    width: 200px;
+}
+.submenu:hover .subcontent{
+    display: block;
+}
