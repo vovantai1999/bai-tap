@@ -15,7 +15,7 @@
     <br><br>
 
     <label>Discount Percent: </label>
-    <input type="text" name="discountPercent" placeholder="Nhập tỷ lệ chiết khấu    "/>
+    <input type="text" name="discountPercent" placeholder="Nhập tỷ lệ chiết khấu        "/>
     <br><br>
 
     <input type = "submit" id = "submit" value = "Calculate Discount"/>
