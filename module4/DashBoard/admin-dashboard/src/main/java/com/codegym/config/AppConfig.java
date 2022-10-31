@@ -1,4 +1,4 @@
-package java.com.codegym.config;
+package com.codegym.config;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -16,7 +16,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("java.com.codegym.controller")
+@ComponentScan("com.codegym.controller")
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
 
     private ApplicationContext applicationContext;
