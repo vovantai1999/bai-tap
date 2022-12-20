@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087f02bc-f31c-48b3-89f1-d350f725e215" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/CounterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../modul1/cấu trúc lặp 2/luyện tập vòng lặp 1/bai_5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../modul1/cấu trúc lặp 2/luyện tập vòng lặp 1/bai_5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../module2/ARRAY AND METHODS IN JAVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/ARRAY AND METHODS IN JAVA/.idea/workspace.xml" afterDir="false" />
@@ -1017,7 +1006,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668650884050</updated>
-      <workItem from="1668650887132" duration="772000" />
+      <workItem from="1668650887132" duration="1117000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
+.error-container {
+    text-align: center;
+    font-size: 180px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    margin: 20px 15px;
+}
+.error-container > span {
+    display: inline-block;
+    line-height: 0.7;
+    position: relative;
+    color: #821f93;
+}
+.error-container > span {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.error-container > span:nth-of-type(1) {
+    color: #96f61a;
+    animation: colordancing 4s infinite;
+}
+.error-container > span:nth-of-type(3) {
+    color: #000000;
+    animation: colordancing2 4s infinite;
+}
+.error-container > span:nth-of-type(2) {
+    width: 120px;
+    height: 120px;
+    border-radius: 999px;
+}
+.error-container > span:nth-of-type(2):before,
+.error-container > span:nth-of-type(2):after {
+    border-radius: 0%;
+    content:"";
+    position: absolute;
+    top: 0; left: 0;
+    width: inherit; height: inherit;
+    border-radius: 999px;
+    box-shadow: inset 30px 0 0 rgba(21, 41, 91, 0.4),
+    inset 0 30px 0 rgba(42, 15, 84, 0.4),
+    inset -30px 0 0 rgba(219, 41, 255, 0.4),
+    inset 0 -30px 0 rgba(213, 0, 148, 0.4);
+    animation: shadowsdancing 4s infinite;
+}
+.error-container > span:nth-of-type(2):before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.screen-reader-text {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+}
+@keyframes shadowsdancing {
+    0% {
+        box-shadow: inset 30px 0 0 rgba(55, 94, 0, 0.78),
+        inset 0 30px 0 rgba(88, 10, 107, 0.4),
+        inset -30px 0 0 rgba(173, 95, 7, 0.4),
+        inset 0 -30px 0 rgba(44, 0, 166, 0.4);
+    }
+    25% {
+        box-shadow: inset 30px 0 0 rgba(0, 180, 103, 0.4),
+        inset 0 30px 0 rgba(75, 255, 166, 0.4),
+        inset -30px 0 0 rgba(152, 0, 0, 0.4),
+        inset 0 -30px 0 rgba(67, 112, 196, 0.4);
+    }
+    50% {
+        box-shadow: inset 30px 0 0 rgba(0, 183, 83, 0.4),
+        inset 0 30px 0 rgba(0, 90, 145, 0.4),
+        inset -30px 0 0 rgba(142, 5, 180, 0.4),
+        inset 0 -30px 0 rgba(246, 0, 0, 0.4);
+    }
+    75% {
+        box-shadow: inset 30px 0 0 rgba(55, 217, 0, 0.4),
+        inset 0 30px 0 rgba(0, 59, 255, 0.4),
+        inset -30px 0 0 rgba(255, 166, 0, 0.4),
+        inset 0 -30px 0 rgba(255, 0, 116, 0.4);
+    }
+    100% {
+        box-shadow: inset 30px 0 0 rgba(255, 181, 34, 0.4),
+        inset 0 30px 0 rgba(61, 255, 39, 0.4),
+        inset -30px 0 0 rgba(68, 255, 190, 0.4),
+        inset 0 -30px 0 rgba(38, 55, 255, 0.4);
+    }
+}
+@keyframes colordancing {
+    0% {
+        color: #e927ff;
+    }
+    25% {
+        color: #caff45;
+    }
+    50% {
+        color: #001a91;
+    }
+    75% {
+        color: #ce632b;
+    }
+    100% {
+        color: #3c3150;
+    }
+}
+@keyframes colordancing2 {
+    0% {
+        color: #8cffd7;
+    }
+    25% {
+        color: #1a1e01;
+    }
+    50% {
+        color: #ea9617;
+    }
+    75% {
+        color: #d99d20;
+    }
+    100% {
+        color: #e28cff;
+    }
+}
+
+/* demo stuff */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #416475;
+    margin-bottom: 50px;
+}
+html, button, input, select, textarea {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #edf0f1;
+}
+h1 {
+    text-align: center;
+    margin: 30px 15px;
+}
+.zoom-area {
+    max-width: 490px;
+    margin: 30px auto 30px;
+    font-size: 19px;
+    text-align: center;
+}
+.link-container {
+    text-align: center;
+}
+a.more-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: #faf7f7;
+    padding: 10px 15px;
+    border-radius: 0;
+    color: #054465;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Trang chủ</title>
+    <th:block th:replace="/admin/layout/head :: head"/>
+    <th:block th:replace="/admin/layout/head :: headCustomer"/>
+    <link rel="stylesheet" href="/assets/css/theme.css">
+    <link rel="stylesheet" href="/assets/page-home/css/style.css">
+    <style>
+        #wrapper {
+            background-image: url("/assets/page-home/css/nenweb.ipg.jpg");
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Begin page -->
+<div id="wrapper">
+
+
+    <!-- Topbar Start -->
+    <th:block th:replace="/home/layout/top-index :: top-index"/>
+    <div class="content" id="tbContent">
+
+        <!-- Start container-fluid -->
+        <div class="container-fluid">
+
+            <div class="row" style="background-color: rgba(180,177,177,0.71)">
+                <div class="col-12 text-center text-justify">
+                    <marquee direction="left">
+                        <h4 style="margin-top: 12px">Xin chào <span th:text="${user.getRole().getPosition()}"
+                                                                    style="font-weight: bold"></span>
+                            <span th:text="${user.fullName}" class="test"></span>!
+                        </h4>
+                    </marquee>
+                </div>
+            </div>
+            <!-- end row -->
+
+            <div id="content">
+
+
+                <!-- end row -->
+
+
+                <!-- end row -->
+
+            </div>
+            <!-- end container-fluid -->
+
+
+            <!-- Footer Start -->
+
+            <!-- end Footer -->
+        </div>
+        <!-- end content -->
+
+    </div>
+    <!-- END content-page -->
+</div>
+<!-- END wrapper -->
+
+<!-- Vendor js -->
+<th:block th:replace="/admin/layout/script :: script"/>
+<th:block th:replace="/admin/layout/script :: scriptCustomer"/>
+</body>
+
+
+<script>
+    let page = {
+        urls: {
+            getAllProducts: App.PRODUCT_API,
+            getProductById: App.PRODUCT_API,
+        },
+        elements: {},
+        loadData: {},
+        commands: {},
+        dialogs: {
+            elements: {},
+            loadData: {},
+            commands: {},
+            alertDanger: {}
+        },
+        initializeEventControl: {}
+
+    }
+
+
+    page.elements.tbProduct = $("#content");
+
+
+    let product = new Product();
+    let productAvatar = new ProductAvatar();
+
+
+    page.commands.getAllProducts = () => {
+        $.ajax({
+            headers: {
+                "accept": "application/json",
+                "content-type": "application/json"
+            },
+            type: "GET",
+            url: page.urls.getAllProducts
+        })
+            .done((data) => {
+
+                $.each(data, (i, item) => {
+                    product = item;
+                    productAvatar = product.productAvatar;
+                    page.elements.tbProduct.prepend(page.commands.renderProduct(product, productAvatar));
+                })
+
+            })
+            .fail((error) => {
+                console.error(error);
+            })
+    }
+
+    page.commands.renderProduct = (product, productAvatar) => {
+        let image_thumbnail = App.BASE_URL_CLOUD_IMAGE + "/" + App.SCALE_IMAGE_W200_H250_Q100 + "/" + productAvatar.fileFolder + "/" + productAvatar.fileName;
+        return `
+
+
+             <ul class="products">
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+
+                                <a href="" class="product-img">
+                                    <img src="${image_thumbnail}" alt=${productAvatar.id} style="height:220px;width:100%">
+                                </a>
+
+                            <div class="acction">
+                                <button class="add-product">Thêm vào giỏ hàng</button>
+
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-name">
+                                ${product.productName}
+                            </a>
+                            <div class="prd-dis">
+                                ${product.description}
+                            </div>
+
+                        </div>
+                        <div class="product-price">
+                                ${new Intl.NumberFormat('vi-VN', {
+            style: 'currency',
+            currency: 'VND'
+        }).format(product.price)}
+                            </div>
+                    </div>
+                </li>
+            </ul>
+                        `;
+    }
+    page.commands.loadData = () => {
+
+        page.commands.getAllProducts();
+    }
+
+    page.initializeEventControl = () => {
+
+    }
+
+    $(() => {
+        page.commands.loadData();
+        page.initializeEventControl();
+    });
+</script>
+
+
+</html>

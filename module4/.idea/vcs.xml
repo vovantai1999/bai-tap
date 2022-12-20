@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/1.TỔNG QUAN SPRING MVC/[Thực hành] Tạo ứng dụng Spring Greeting/Simple-Dictionary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/10. Session &amp; Cookie trong Spring/[Thực hành] Thêm sản phẩm vào giỏ hàng/add-products" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2.SPRING CONTROLLER/[Thực hành] Ứng dụng quản lý danh sách khách hàng/customer-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/7. Spring Data Repository/[Thực hành] Ứng dụng Quản lý khách hàng Quản lý tỉnh/Spring-Data-Repositories" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Case_module4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/c0622-dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/laptop-shop" vcs="Git" />
+  </component>
+</project>

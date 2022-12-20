@@ -35,7 +35,7 @@ public class SmartphoneController {
         Optional<Smartphone> smartphoneOptional = smartphoneService.findById(id);
         if (!smartphoneOptional.isPresent()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }   
+        }
         smartphoneService.remove(id);
         return new ResponseEntity<>(smartphoneOptional.get(), HttpStatus.NO_CONTENT);
     }
