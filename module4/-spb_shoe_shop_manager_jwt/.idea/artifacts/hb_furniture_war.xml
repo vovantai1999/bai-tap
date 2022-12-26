@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hb-furniture:war">
+    <output-path>$PROJECT_DIR$/Motor-Cycle/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hb-furniture</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hb-furniture-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hb-furniture:war exploded" />
+    </root>
+  </artifact>
+</component>
